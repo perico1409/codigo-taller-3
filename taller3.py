@@ -1,6 +1,6 @@
 import numpy as np
 
-def laplace_solver(N,M, V0, dx_dy, max_iteraciones=1000):
+def laplace_solver(N,M, V0, dx_dy, max_iteraciones=10000):
     "genera un pontencial aribitrario de dimensiones N x M"
     V = np.random.rand(N, M) 
     iteraciones = 0
